@@ -1,0 +1,9 @@
+{
+    "name": "technologies-from-zero",
+    "version": "0.2.0",
+    "title": "Technologies from Zero",
+    "author": "J.W. Yearsley",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0"],
+    "description": "Start with no craftable recipes - everything must be researched"
+}
