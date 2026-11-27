@@ -37,3 +37,15 @@ if data.raw.recipe["kr-basic-tech-card"] and data.raw.technology["tfz-machinery"
     )
     data.raw.recipe["kr-basic-tech-card"].enabled = false
 end
+
+if data.raw.technology["kr-automation-core"] then
+    table.insert(data.raw.technology["kr-automation-core"].prerequisites, "tfz-machinery")
+end
+
+if data.raw.technology["kr-iron-pickaxe"] then
+    table.insert(data.raw.technology["kr-iron-pickaxe"].prerequisites, "tfz-machinery")
+end
+
+if data.raw.technology["military"] then
+    table.insert(data.raw.technology["military"].prerequisites, "tfz-machinery")
+end
