@@ -8,7 +8,7 @@ data:extend(
         prerequisites = nil,
         research_trigger = {
             type = "mine-entity",
-            entity = "stone",
+            entities = { "stone" },
             count = 5
         },
         effects = {
