@@ -4,6 +4,10 @@
     "title": "Technologies from Zero",
     "author": "J.W. Yearsley",
     "factorio_version": "2.1",
-    "dependencies": ["base >= 2.0"],
+    "dependencies":
+    [
+        "base >= 2.0",
+        "(?) Krastorio2 >= 2.1.0"
+    ],
     "description": "Start with no craftable recipes - everything must be researched"
 }
